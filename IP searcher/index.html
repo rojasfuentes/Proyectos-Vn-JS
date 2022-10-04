@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>My Project</title>
+</head>
+
+<body>
+  <main class="container">
+    <form id="form">
+      <label>
+        IP del usuario
+        <input required id="input" type="text" placeholder="Introduce aquí la IP">
+        <small>Ejemplo: 54.85.132.205</small>
+      </label>
+
+      <button id="submit">
+        Buscar información de esta IP
+      </button>
+
+    </form>
+
+    <div>
+      <pre id="results"> 
+
+      </pre>
+    </div>
+
+  </main>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
